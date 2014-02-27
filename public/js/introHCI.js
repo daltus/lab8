@@ -20,5 +20,5 @@ function likeClicked(e) {
 	ga("send", "event", "like", "click");
 	var endTime = new Date().getTime();
 	var timeSpent = endTime - startTime;
-	ga('send', 'timing', 'user actions', 'load to like', timeSpent);
+	ga('send', 'timing', 'user actions', 'load to like', timeSpent, 'label');
 }
